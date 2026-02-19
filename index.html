@@ -329,21 +329,6 @@
   }
   .exp-list li::before { content: '→'; position: absolute; left: 0; color: var(--accent); }
 
-  /* Education */
-  .edu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
-  .edu-card {
-    background: var(--card); border: 1px solid var(--border);
-    padding: 2rem; transition: border-color 0.3s, transform 0.3s;
-  }
-  .edu-card:hover { border-color: var(--accent2); transform: translateY(-4px); }
-  .edu-degree { font-family: 'Syne', sans-serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; }
-  .edu-school { font-size: 0.78rem; color: var(--muted); line-height: 1.6; }
-  .edu-meta {
-    display: flex; justify-content: space-between; align-items: center;
-    margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border);
-  }
-  .edu-score { font-family: 'Syne', sans-serif; font-size: 1.2rem; font-weight: 700; color: var(--accent); }
-  .edu-year { font-size: 0.72rem; color: var(--muted); }
 
   /* Certs */
   .certs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
@@ -431,10 +416,7 @@
     <li><a href="#about">About</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#experience">Experience</a></li>
-    <li><a href="#education">Education</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="https://github.com/Khushal404das" target="_blank">GitHub ↗</a></li>
-    <li><a href="https://www.linkedin.com/in/khushal-das" target="_blank">LinkedIn ↗</a></li>
   </ul>
 </nav>
 
@@ -616,37 +598,7 @@
   </div>
 </section>
 
-<!-- Education -->
-<section id="education">
-  <div class="section-label">Academic Background</div>
-  <h2>Education</h2>
-  <div class="edu-grid reveal">
-    <div class="edu-card">
-      <div class="edu-degree">BS Software Engineering</div>
-      <div class="edu-school">National University of Computer and Emerging Sciences (FAST), Peshawar</div>
-      <div class="edu-meta">
-        <div class="edu-score">2.52 / 4.0</div>
-        <div class="edu-year">2022 – Present</div>
-      </div>
-    </div>
-    <div class="edu-card">
-      <div class="edu-degree">Intermediate (Pre-Engineering)</div>
-      <div class="edu-school">Board of Intermediate and Secondary Education, Mirpurkhas</div>
-      <div class="edu-meta">
-        <div class="edu-score">80.72%</div>
-        <div class="edu-year">2020</div>
-      </div>
-    </div>
-    <div class="edu-card">
-      <div class="edu-degree">Matriculation</div>
-      <div class="edu-school">Board of Intermediate and Secondary Education, Mirpurkhas</div>
-      <div class="edu-meta">
-        <div class="edu-score">80.28%</div>
-        <div class="edu-year">2018</div>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 <!-- Certifications -->
 <section id="certifications">
